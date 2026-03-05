@@ -1,3 +1,23 @@
+Metadata-Version: 2.4
+Name: care_plugin
+Version: 0.1.0
+Summary: Django plugin for ohcnetwork/care.
+Author-email: Open Health Care Network <support@ohc.network>
+Maintainer-email: Open Health Care Network <support@ohc.network>
+License: MIT
+Project-URL: bugs, https://github.com/ohcnetwork/care_plugin/issues
+Project-URL: changelog, https://github.com/ohcnetwork/care_plugin/blob/master/changelog.md
+Project-URL: homepage, https://github.com/ohcnetwork/care_plugin
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django
+Requires-Dist: celery
+Requires-Dist: djangorestframework
+Provides-Extra: test
+Requires-Dist: ruff; extra == "test"
+Dynamic: license-file
+
 # Care Plugin
 
 Django plugin for ohcnetwork/care.
